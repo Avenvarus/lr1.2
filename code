@@ -1,0 +1,274 @@
+rosrun turtlesim turtlesim_node
+rosrun turtlesim turtle_teleop_key
+РЕЩЗ
+htop
+sudo apt install htop
+htop
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo apt install curl # if you haven't already installed curl
+sudo apt update
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo apt install curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+sudo apt update
+sudo apt install ros-noetic-desktop-full
+source /opt/ros/noetic/setup.bash
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+echo $ROS_DISTRO
+env | grep "^ROS_"
+sudo apt install  git
+roscore
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt install code
+mkdir
+mkdir --help
+mkdir
+mkdir Papka
+cd Papka
+mkdir Text
+cd Text
+cd ..
+cd super_dir
+nano description.txt
+my_first_script.sh
+rm my^c
+mkdir my_first_script.sh
+cd my_first_scrint.sh
+touch my_first_script.sh
+nano  my_first_script.sh
+touch my_first_script.sh
+nano my_first_script.sh
+ls
+nano my_first_script.sh
+bash my_first_script.sh 
+WORLD_STRING="world"
+echo "Hello $WORLD_STRING!"
+USERNAME="Ksenia"
+echo "Hello $WORLD_STRING! My name is $USERNAME"
+touch my_first_script.sh 
+nano my_first_script.sh 
+chmod +x my_first_script.sh
+ls -l my_first_script.sh 
+./my_first_script.sh 
+env
+echo HOME
+echo $HOME
+echo $PATH
+echo $PWD
+nano env_pack.sh
+#!/usr/bin/env bash
+export VAR_ONE="one"
+export SUPER_VAR="puper"
+chmod +x env_pack.sh
+ls -l env_pack.sh 
+./env_pack.sh 
+echo $VAR_ONE
+echo $SUPER_VAR
+echo $BIBA
+source ./env_pack.sh 
+echo $BIBA
+echo $VAR_ONE
+/.bashrc
+cd ~/.bashrc
+cd ~/.bash
+.bashrc
+nano.bashrc
+nano .bashrc
+echo $BIBA
+source ./env_pack.sh/.bashrc
+source $HOME/.bashrc
+cd ~/.bashrc
+cd /home/.bashrc
+cd home
+ls
+pwd
+..
+cd ..
+ls
+cd .bashrc
+ls
+cd ~
+cd
+nano .bashrc
+echo $BIBA
+env | grep "HOME"
+env
+env | grep "VAR"
+env | grep "PY"
+env | wc
+git init
+git status
+nano shopping_list.md
+git status
+git add <~\shopping_list.md>
+git status
+git add ~/shopping_list.md
+git status
+mkdir git
+cd git
+git init
+nano shopping_list.md
+git add shopping_list.md 
+git status
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws
+catkin_make
+~/.bashrc
+source ~/catkin_ws/devel/setup.bash
+echo $ROS_PACKAGE_PATH
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws
+catkin_make
+source ~/catkin_ws/devel/setup.bash
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+echo $ROS_PACKAGE_PATH
+rosrun LR1 first_node.py
+roscd LR1
+rosrun LR1 first_node.py
+cd ~/catkin_ws/src
+catkin_create_pkg study_pkg rospy
+catkin_create_pkg LR1 rospy
+cd ~/catkin_ws
+catkin_make
+source ~/.bashrc
+rospack list
+roscd study_pkg
+roscd LR1
+git init
+git checkout -b main
+git status
+git remote add origin https://github.com/Avenvarus/lr1.1.git
+git pull origin main
+git add -A
+git commit -am "First package commit"
+git config user.email "suravneva77@gmail.com"
+git config user.name "Avenvarus Avenvarus"
+git push --set-upstream origin main
+git commit -am "First package commit"
+git push --set-upstream origin main
+roscd LR1
+mkdir scripts
+touch scripts/first_node.py
+nsno code.txt
+nano code.txt
+rosrun study_pkg first_node.py
+chmod +x scripts/first_node.py
+rosrun study_pkg first_node.py
+roslaunch study_pkg first_node.py
+./
+..
+.
+..src
+.scr
+. src
+.. src
+cd ..
+cd lr1
+roslaunch study_pkg first_node.py
+roscore
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws
+catkin_make
+source ~/catkin_ws/devel/setup.bash
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+echo $ROS_PACKAGE_PATH
+cd ~/catkin_ws/src
+catkin_create_pkj super_Ksenia_study_pkj rospy
+catkin_create_pkg super_Ksenia_study_pkg rospy
+catkin_create_pkg super_ksenia_study_pkg rospy
+cd ~/catkin_ws
+catkin_make
+source ~/.bashrc
+rospack list
+roscd super_ksenia_study_pkg
+git init
+git checkout -b main
+git status
+git remote add origin https://github.com/Avenvarus/lr1.2.git
+git pull origin main
+git add -A
+git commit -am "First package commit"
+git config user.email "suravneva77@gmail.com"
+git config user.name "Avenvarus Avenvarus"
+git commit -am "First package commit"
+git push --set-upstream origin main
+roscd super_ksenia_study_pkg
+mkdir scripts
+touch scripts/second_node.py
+nano code.txt
+chmod +x scripts/second_node.py
+rosrun super_ksenia_study_pkg second_node.py
+roscd super_ksenia_study_pkg/
+rosrun super_ksenia_study_pkg second_node.py 
+python3 scripts/second_node.py 
+rosrun super_ksenia_study_pkg second_node.py 
+nano scripts/second_node.py 
+cd ..
+ls
+cd study_pkg/
+ls
+cd ..
+cd super_Ksenia_study_pkg/
+ls
+cd ..
+cd lr1/
+ls
+cd ..
+cd super_ksenia_study_pkg/
+cd scripts/
+git init 
+git add second_node.py 
+git commit -am "Script adding" 
+git config --global user.email "suravneva77@gmail.com"
+git config --global user.name "Avenvarus"
+git commit -am "Script adding" 
+git status 
+git pull origin https://github.com/Avenvarus/lr1.2
+git pull origin https://github.com/Avenvarus/lr1.2.git
+git remote add origin https://github.com/Avenvarus/lr1.2.git
+git pull origin https://github.com/Avenvarus/lr1.2.git
+git pull origin main
+git pull origin master
+git status 
+git push
+git push --set-upstream origin master
+git checkout main
+git push --set-upstream origin master
+git push
+cd ..
+ls
+cd scripts/
+ls
+nano timer.py
+python3 timer.py 
+nano timer.py
+python3 timer.py 
+git pull origin main
+git add timer.py
+git commit -am "Timer on python" 
+git push
+cd 
+git clone https://github.com/AleksDevEdu/ros_edu_super_secret_package.git
+cd ros_edu_super_secret_package/
+ls
+cd scripts/
+ls
+cd ..
+cd ros_edu_super_secret_package/
+cd scripts/
+ls
+python3 broken_script.py 
+nano broken_script.py 
+python3 broken_script.py 
+python3 hack_secret_data.py 
+cd ..
+cd 
+nano .bash_history 
+cat .bash_history 
+cd scripts/
+rosrun super_ksenia_study_pkg second_node.py 
+roscore
+touch laba
+nano laba 
