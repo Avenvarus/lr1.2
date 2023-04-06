@@ -1,0 +1,13 @@
+<launch>
+<arg name="Arg" />
+		<param name="param" value="$(arg Arg)"/>
+	<group ns="new_ns">	
+		
+		<node name="receiver" pkg="rospy_tutorials" type="listener.py" output="screen">
+       		<remap from="chatter" to="$(arg Arg)"/>
+		</node>
+		<node name="sender" pkg="rospy_tutorials" type="talker.py" output="screen">
+       		<remap from="chatter" to="$(arg Arg)"/>
+       	</node>
+	</group>
+</launch>

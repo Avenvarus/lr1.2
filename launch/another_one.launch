@@ -1,0 +1,11 @@
+<launch>
+	<group ns="new_ns">
+		<arg name="Arg" />
+		<include file="$(find super_ksenia_study_pkg)/launch/my_first.launch">
+		<arg name="Arg" value="$(arg Arg)"/>
+		</include>
+		<node name="listener_cpp" pkg="roscpp_tutorials" type="listener.py" output="screen">
+			<remap from="chatter" to="$(arg Arg)"/>
+ 		</node>
+	</group>
+</launch>
